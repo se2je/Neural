@@ -4,21 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
     <div class="body-wrapper">
+      <div class="burger-open burger"><span></span><span></span><span></span></div>
       <header class="header">
-        <a href="#block1" class="button">About me</a>
-        <a href="#block2" class="button">My works</a>
-        <a href="#block3" class="button">Contacts</a>
+        <div class="burger-close burger"><span></span><span></span><span></span></div>
+        <nav class="header-nav">
+          <div class="h-wrapper">
+            <a href="#block1" class="button">About me</a>
+            <a href="#block2" class="button">My works</a>
+            <a href="#block3" class="button">Contacts</a>
+          </div>
+        </nav>
       </header>
       <section class="block" id="block1">
-        <h2>Блок 1</h2>
-        <p>Текст блока 1</p>
-        <div id="console">
-          <p id="console-text"></p>
+        <div class="block1-info"></div>
+        <div class="block1-img">
+          <img src="./img/main.png" alt="" />
         </div>
       </section>
 

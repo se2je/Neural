@@ -39,3 +39,15 @@ function eraseConsoleText() {
 setTimeout(function() {
   printConsoleText();
 }, 1000);
+
+
+
+const burgerOpen = document.querySelectorAll('.burger')
+const header = document.querySelector('.header')
+
+burger.forEach(element => {
+  element.addEventListener('click', function(){
+    header.classList.toggle('show-header')
+    alert('')
+  })
+});
