@@ -18,7 +18,7 @@
     <div class="body-wrapper">
       <div class="burger-open burger"><span></span><span></span><span></span></div>
       <header class="header">
-        <div class="burger-close burger"><span></span><span></span><span></span></div>
+        <div class="burger-close burger"><span class="span1"></span></span></div>
         <nav class="header-nav">
           <div class="h-wrapper">
             <a href="#block1" class="button">About me</a>
@@ -28,15 +28,18 @@
         </nav>
       </header>
       <section class="block" id="block1">
-        <div class="block1-info"></div>
+        <div class="block1-info">
+
+          <h1>AI Today: Your Ultimate Guide to <br> Artificial Intelligence</h1>
+          <p>This website is fully generated using neural networks. All content, including its location, size, and architecture is machine-created.</p>
+        </div>
         <div class="block1-img">
           <img src="./img/main.png" alt="" />
         </div>
       </section>
 
       <section class="block" id="block2">
-        <h2>Блок 2</h2>
-        <p>Текст блока 2</p>
+        <video src="./backvid.mp4" class="backvid" height="100%" width="100%" muted loop autoplay></video>
       </section>
 
       <section class="block" id="block3">
@@ -45,6 +48,15 @@
       </section>
 
       <button class="onTopBtn">Наверх</button>
+
+
+
+      <div class="preloader">
+        <div class="preloader-inner">
+          <div class="preloader-logo"></div>
+          <div class="preloader-spinner"></div>
+        </div>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
