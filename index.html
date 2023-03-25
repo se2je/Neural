@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.min.css">
     <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
@@ -21,33 +22,37 @@
         <div class="burger-close burger"><span class="span1"></span></span></div>
         <nav class="header-nav">
           <div class="h-wrapper">
-            <a href="#block1" class="button">About me</a>
-            <a href="#block2" class="button">My works</a>
-            <a href="#block3" class="button">Contacts</a>
+            <a href="#AboutUs" class="button">About me</a>
+            <a href="#Section2" class="button">My works</a>
+            <a href="#Section3" class="button">Contacts</a>
           </div>
         </nav>
       </header>
-      <section class="block" id="block1">
-        <div class="block1-info">
-
-          <h1>AI Today: Your Ultimate Guide to <br> Artificial Intelligence</h1>
-          <p>This website is fully generated using neural networks. All content, including its location, size, and architecture is machine-created.</p>
+      <div class="section-wrapper" id="fullpage">
+        <div class="section block" id="block1">
+          <div class="block1-info">
+  
+            <h1>AI Today: Your Ultimate Guide to <br> Artificial Intelligence</h1>
+            <p>This website is fully generated using neural networks. All content, including its location, size, and architecture is machine-created, or suggested.</p>
+          </div>
+          <div class="block1-img">
+            <img src="./img/main.png" alt="" />
+          </div>
         </div>
-        <div class="block1-img">
-          <img src="./img/main.png" alt="" />
+  
+        <div class="section block" id="block2">
+          <video src="./backvid2.mp4" class="backvid" height="100%" width="100%" muted loop autoplay></video>
         </div>
-      </section>
+  
+        <div class="section block" id="block3">
+          <div class="slide"> Slide 1 </div>
+          <div class="slide"> Slide 2 </div>
+          <div class="slide"> Slide 3 </div>
+          <div class="slide"> Slide 4 </div>
+        </div>
+      </div>
 
-      <section class="block" id="block2">
-        <video src="./backvid.mp4" class="backvid" height="100%" width="100%" muted loop autoplay></video>
-      </section>
-
-      <section class="block" id="block3">
-        <h2>Блок 3</h2>
-        <p>Текст блока 3</p>
-      </section>
-
-      <button class="onTopBtn">Наверх</button>
+      <button class="onTopBtn"><a href="#AboutUs">Наверх</a> </button>
 
 
 
@@ -58,6 +63,7 @@
         </div>
       </div>
     </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
